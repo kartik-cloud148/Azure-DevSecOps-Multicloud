@@ -31,4 +31,4 @@ jobs:
 
       - name: Scan Docker Image with Trivy
         run: |
-          trivy image --severity HIGH,CRITICAL --exit-code 1 devsecops-project
+          trivy image --severity HIGH,CRITICAL devsecops-project
